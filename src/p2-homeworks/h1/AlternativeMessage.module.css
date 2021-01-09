@@ -1,20 +1,21 @@
-.message {
+.alternativeMessage {
     display: grid;
     background: linear-gradient(to top, #48007a, #020005);
-    grid-template-columns: 150px 1fr 300px;
+    grid-template-columns: 300px 1fr 150px;
 }
 
-.image_logo {
+.alternativeImageLogo {
     margin: 10px;
     align-self: end;
 }
 
-.image_logo img {
+.alternativeImageLogo img {
     border-radius: 50%;
     width: 100%;
 }
 
-.message_block {
+.alternativeMessageBlock {
+
     margin: 20px;
     padding: 15px;
     border: maroon 5px solid;
@@ -22,16 +23,17 @@
     background-color: seashell;
 }
 
-.message_block .name {
+.alternativeMessageBlock .name {
+    text-align: end;
     color: cornflowerblue;
     font-size: x-large;
     font-weight: bold;
 }
 
-.message_block .mini_message {
+.alternativeMessageBlock .mini_message {
 
 }
 
-.message_block .time {
-    text-align: end;
+.alternativeMessageBlock .time {
+    text-align: start;
 }
