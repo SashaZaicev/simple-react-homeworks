@@ -9,6 +9,7 @@ type MessagePropsType = { // need to fix any
 }
 
 function Message(props: MessagePropsType) {
+    console.log(props)
     return (
         <>
             <div className={style.message}>
