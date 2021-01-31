@@ -34,12 +34,16 @@ function Affairs(props: AffairsPropsType) {
     return (
         <div className={affairStyle.affairSize}>
 
-            {mappedAffairs}
+            <div>
+                {mappedAffairs}
+            </div>
+            <div>
+                <button onClick={() => setAll('all')}>All</button>
+                <button onClick={() => setHigh('high')}>High</button>
+                <button onClick={() => setMiddle('middle')}>Middle</button>
+                <button onClick={() => setLow('low')}>Low</button>
+            </div>
 
-            <button onClick={() => setAll('all')}>All</button>
-            <button onClick={() => setHigh('high')}>High</button>
-            <button onClick={() => setMiddle('middle')}>Middle</button>
-            <button onClick={() => setLow('low')}>Low</button>
         </div>
     );
 }

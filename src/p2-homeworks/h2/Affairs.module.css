@@ -1,6 +1,8 @@
-.someClass {
-
+.hWStyleAll {
+display: grid;
 }
 .affairSize {
+    display: grid;
+    border: 5px blueviolet solid;
     width: 300px;
 }

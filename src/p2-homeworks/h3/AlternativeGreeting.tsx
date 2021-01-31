@@ -1,9 +1,14 @@
 import React from "react";
+import s from './Greeting.module.css'
 
-function AlternativeGreeting() {
+type ClearAllPropsType = {
+    clearAll: () => void
+}
+
+const AlternativeGreeting:React.FC<ClearAllPropsType> = ({clearAll}) => {
     return (
-        <div>
-
+        <div className={s.body}>
+            <button className={s.pressed_button} onClick={clearAll}>Clear all</button>
         </div>
     );
 }
