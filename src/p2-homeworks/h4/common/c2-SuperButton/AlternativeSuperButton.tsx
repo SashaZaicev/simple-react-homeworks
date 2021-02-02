@@ -1,8 +1,15 @@
-import React from "react";
+import React, {ButtonHTMLAttributes, DetailedHTMLProps} from "react";
 
-function AlternativeSuperButton() {
+type DefaultButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>;
+
+const AlternativeSuperButton: React.FC<DefaultButtonPropsType> = ({...restProps}) => {
     return (
-        <button/>
+        <button
+            style={{
+                background: 'black',
+                border: 'none',
+                color: "goldenrod",
+            }} {...restProps}/>
     );
 }
 
