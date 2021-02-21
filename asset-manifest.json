@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks/static/css/main.9a26e777.chunk.css",
-    "main.js": "/simple-react-homeworks/static/js/main.a2ebaf3f.chunk.js",
-    "main.js.map": "/simple-react-homeworks/static/js/main.a2ebaf3f.chunk.js.map",
+    "main.css": "/simple-react-homeworks/static/css/main.6cd4b3b9.chunk.css",
+    "main.js": "/simple-react-homeworks/static/js/main.162c8fe5.chunk.js",
+    "main.js.map": "/simple-react-homeworks/static/js/main.162c8fe5.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js",
     "runtime-main.js.map": "/simple-react-homeworks/static/js/runtime-main.f59815ab.js.map",
-    "static/js/2.c665dcb1.chunk.js": "/simple-react-homeworks/static/js/2.c665dcb1.chunk.js",
-    "static/js/2.c665dcb1.chunk.js.map": "/simple-react-homeworks/static/js/2.c665dcb1.chunk.js.map",
+    "static/js/2.1a5409b8.chunk.js": "/simple-react-homeworks/static/js/2.1a5409b8.chunk.js",
+    "static/js/2.1a5409b8.chunk.js.map": "/simple-react-homeworks/static/js/2.1a5409b8.chunk.js.map",
     "index.html": "/simple-react-homeworks/index.html",
-    "precache-manifest.828d76d127d49383afccef1bad78d278.js": "/simple-react-homeworks/precache-manifest.828d76d127d49383afccef1bad78d278.js",
+    "precache-manifest.324c156709cfd2c47f30d0cf3fa5aec9.js": "/simple-react-homeworks/precache-manifest.324c156709cfd2c47f30d0cf3fa5aec9.js",
     "service-worker.js": "/simple-react-homeworks/service-worker.js",
-    "static/css/main.9a26e777.chunk.css.map": "/simple-react-homeworks/static/css/main.9a26e777.chunk.css.map",
-    "static/js/2.c665dcb1.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.c665dcb1.chunk.js.LICENSE.txt",
+    "static/css/main.6cd4b3b9.chunk.css.map": "/simple-react-homeworks/static/css/main.6cd4b3b9.chunk.css.map",
+    "static/js/2.1a5409b8.chunk.js.LICENSE.txt": "/simple-react-homeworks/static/js/2.1a5409b8.chunk.js.LICENSE.txt",
     "static/media/cat_standing_animated.gif": "/simple-react-homeworks/static/media/cat_standing_animated.01b625ce.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.f59815ab.js",
-    "static/js/2.c665dcb1.chunk.js",
-    "static/css/main.9a26e777.chunk.css",
-    "static/js/main.a2ebaf3f.chunk.js"
+    "static/js/2.1a5409b8.chunk.js",
+    "static/css/main.6cd4b3b9.chunk.css",
+    "static/js/main.162c8fe5.chunk.js"
   ]
 }
