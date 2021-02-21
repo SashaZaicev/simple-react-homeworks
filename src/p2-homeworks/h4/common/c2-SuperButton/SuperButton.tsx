@@ -21,10 +21,13 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
             color: 'gold',
             background: 'black',
             margin: '10px',
+            border: 'none',
+            padding: '5px',
+            borderRadius: '20%',
 
         }}
-            className={finalClassName}
-            {...restProps} // отдаём кнопке остальные пропсы если они есть (children там внутри)
+                className={finalClassName}
+                {...restProps} // отдаём кнопке остальные пропсы если они есть (children там внутри)
         />
     );
 }
